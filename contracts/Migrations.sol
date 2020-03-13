@@ -10,6 +10,7 @@ contract Migrations {
 
   modifier restricted() {
     if (msg.sender == owner) _;
+    aaaa
   }
 
   function setCompleted(uint completed) public restricted {
